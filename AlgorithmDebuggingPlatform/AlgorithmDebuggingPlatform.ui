@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AlgorithmDebuggingPlatformClass</class>
+ <widget class="QMainWindow" name="AlgorithmDebuggingPlatformClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AlgorithmDebuggingPlatform</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QTabWidget" name="tabWidgetMain">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1881</width>
+      <height>1041</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>25</pointsize>
+     </font>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+    <widget class="QWidget" name="tableDebug">
+     <attribute name="title">
+      <string>建模</string>
+     </attribute>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>601</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayoutShowImg"/>
+     </widget>
+     <widget class="QFrame" name="frameIDE">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>10</y>
+        <width>1200</width>
+        <height>900</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(200, 200, 200);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Panel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tableBatchProcess">
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;测试&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <attribute name="title">
+      <string>批处理</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1920</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Start</string>
+    </property>
+    <addaction name="actionNeaProject"/>
+    <addaction name="actionOpenProject"/>
+    <addaction name="actionSaveProject"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_NewProject"/>
+   <addaction name="action_OpenProject"/>
+   <addaction name="action_SaveProject"/>
+   <addaction name="action_SaveAs"/>
+   <addaction name="action_ReadImagine"/>
+   <addaction name="separator"/>
+   <addaction name="action_OrganizeWindows"/>
+   <addaction name="action_vsCode"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>LeftToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="action_DrawRect"/>
+   <addaction name="action_DrawCircle"/>
+   <addaction name="action_DrawPolygon"/>
+   <addaction name="action_DrawPoint"/>
+   <addaction name="action_DrawLine"/>
+   <addaction name="action_DrawEllipse"/>
+  </widget>
+  <action name="action_DrawRect">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawRect.png</normaloff>../Resource/ic_DrawRect.png</iconset>
+   </property>
+   <property name="text">
+    <string>矩形框</string>
+   </property>
+  </action>
+  <action name="action_DrawCircle">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawCircle.png</normaloff>../Resource/ic_DrawCircle.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制圆</string>
+   </property>
+  </action>
+  <action name="action_vsCode">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_zoom_adjust_win_size.png</normaloff>../Resource/ic_zoom_adjust_win_size.png</iconset>
+   </property>
+   <property name="text">
+    <string>显示vsCode</string>
+   </property>
+  </action>
+  <action name="action_DrawPolygon">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawPolygon.png</normaloff>../Resource/ic_DrawPolygon.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制轮廓线</string>
+   </property>
+  </action>
+  <action name="action_DrawPoint">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawPoint.png</normaloff>../Resource/ic_DrawPoint.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制点</string>
+   </property>
+  </action>
+  <action name="action_DrawLine">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawLine.png</normaloff>../Resource/ic_DrawLine.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制直线</string>
+   </property>
+  </action>
+  <action name="action_DrawEllipse">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_DrawEllipse.png</normaloff>../Resource/ic_DrawEllipse.png</iconset>
+   </property>
+   <property name="text">
+    <string>绘制椭圆</string>
+   </property>
+  </action>
+  <action name="action_OrganizeWindows">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_organize_windows.png</normaloff>../Resource/ic_organize_windows.png</iconset>
+   </property>
+   <property name="text">
+    <string>还原组件</string>
+   </property>
+  </action>
+  <action name="action_NewProject">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_new.png</normaloff>../Resource/ic_new.png</iconset>
+   </property>
+   <property name="text">
+    <string>新建工程</string>
+   </property>
+  </action>
+  <action name="action_OpenProject">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_open.png</normaloff>../Resource/ic_open.png</iconset>
+   </property>
+   <property name="text">
+    <string>打开工程</string>
+   </property>
+  </action>
+  <action name="action_SaveProject">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_save.png</normaloff>../Resource/ic_save.png</iconset>
+   </property>
+   <property name="text">
+    <string>保存工程</string>
+   </property>
+  </action>
+  <action name="action_SaveAs">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_save_as.png</normaloff>../Resource/ic_save_as.png</iconset>
+   </property>
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="action_ReadImagine">
+   <property name="icon">
+    <iconset>
+     <normaloff>../Resource/ic_open_graphics_wnd.png</normaloff>../Resource/ic_open_graphics_wnd.png</iconset>
+   </property>
+   <property name="text">
+    <string>读取数据</string>
+   </property>
+  </action>
+  <action name="actionNeaProject">
+   <property name="text">
+    <string>NewProject</string>
+   </property>
+  </action>
+  <action name="actionOpenProject">
+   <property name="text">
+    <string>OpenProject</string>
+   </property>
+  </action>
+  <action name="actionSaveProject">
+   <property name="text">
+    <string>SaveProject</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="AlgorithmDebuggingPlatform.qrc"/>
+ </resources>
+ <connections/>
+</ui>

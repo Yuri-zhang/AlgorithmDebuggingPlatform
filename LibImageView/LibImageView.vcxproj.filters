@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{b04f3332-5673-4bff-b404-d772f0295e2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Libimageview_global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="LibImageView.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="LibImageView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Geometry\BaseGeo.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoEllipse.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoLine.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoPoint.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoPath.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoPolygon.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoRect.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoArc.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoArraw.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry\GeoCircle.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Geometry\BaseGeo.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoEllipse.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoLine.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoPoint.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoPath.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoPolygon.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoRect.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoArc.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoArraw.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+    <QtMoc Include="Geometry\GeoCircle.h">
+      <Filter>Geometry</Filter>
+    </QtMoc>
+  </ItemGroup>
+</Project>

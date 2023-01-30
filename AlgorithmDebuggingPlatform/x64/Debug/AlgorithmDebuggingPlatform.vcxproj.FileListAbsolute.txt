@@ -1,0 +1,2 @@
+D:\AlgorithmDebuggingPlatform\x64\Debug\AlgorithmDebuggingPlatform.exe.lastcodeanalysissucceeded
+D:\AlgorithmDebuggingPlatform\AlgorithmDebuggingPlatform\x64\Debug\NativeCodeAnalysis.read.1.tlog

@@ -1,0 +1,1057 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "取消对 NULL 指针的引用。“cur_key->next”包含与“removed_item”相同的 NULL 值。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                },
+                "region": {
+                  "startLine": 5539,
+                  "startColumn": 17,
+                  "endLine": 5539,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "unsafe_yyjson_mut_obj_remove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5529,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5530,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5531,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5532,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5533,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5534,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5536,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5539,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5540,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5541,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5542,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5543,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5536,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "“removed_item”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5539,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“removed_item”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "枚举类型“ImageViewDefine::E_MouseState”未设定范围。相比于 \"enum\"，首选 \"enum class\" (Enum.3)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/LibImageView/Geometry/BaseGeo.h"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 18,
+                  "endLine": 65,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?drawNewGeomety@BaseGeo@@UEAA_NVQPoint@@W4E_MouseState@ImageViewDefine@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“lwndpl”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                },
+                "region": {
+                  "startLine": 251,
+                  "startColumn": 36,
+                  "endLine": 251,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?showIDE@AlgorithmDebuggingPlatform@@AEAAHXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 236,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 71
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 237,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 238,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 239,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 244,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 245,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 246,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 247,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 248,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 250,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“lwndpl”"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "“lwndpl”是“GetWindowPlacement”的输入/输出参数(在 d:\\windows kits\\10\\include\\10.0.17763.0\\um\\winuser.h:4626 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 252,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 254,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 255,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 256,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 258,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 259,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 260,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 261,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“lwndpl”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30147.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00A3C1B0 -il C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\_CL_d74dcee4ast -typedil -f AlgorithmDebuggingPlatform.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930147 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\uic -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\moc -I C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\stvyacui.23j -I D:\\Qt\\6.3.2\\msvc2019_64\\include -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtWidgets -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtGui -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtCore -I C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\stvyacui.23j -I D:\\include -I D:\\Qt\\6.3.2\\msvc2019_64\\mkspecs\\win32-msvc -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\moc -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\uic -nologo -W 1 -diagnostics:column -Ot -DCODE_ANALYSIS -D_WINDOWS -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -EHs -D_CPPUNWIND -EHc -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\AlgorithmDebuggingPlatform.obj -Fdx64\\Debug\\vc142.pdb -external:W 1 -Gd -analyze:projectdirectory D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -Zc:rvalueCast -Zc:strictStrings -permissive- -Zc:__cplusplus -Zc:externConstexpr -validate-charset -utf-8 -D_UTF8 -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 0000000000000144",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "04398258dd719a5b1332f77e93336d5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/AlgorithmDebuggingPlatform/LibImageView/Geometry/BaseGeo.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "57265725f3f8fa5058e81f0a12410729"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "0ec8693ba18a2f4ebb1bce1d4e96441d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/algorithmdebuggingplatform/algorithmdebuggingplatform.h"
+          },
+          "hashes": {
+            "md5": "211dd928c92e33b1440411ee24013b5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/libimageview.h"
+          },
+          "hashes": {
+            "md5": "2be86a96ac0aaf48a38db13df343d2a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/defines.h"
+          },
+          "hashes": {
+            "md5": "8484a70306aab7e57477131cb8513541"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/georect.h"
+          },
+          "hashes": {
+            "md5": "74ca034d81dfabea925ddfdd24f5231e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geopath.h"
+          },
+          "hashes": {
+            "md5": "370dbdd81711d117a0a61c7d2765ec3d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geopolygon.h"
+          },
+          "hashes": {
+            "md5": "ef6c91429b69b699d319a4253e9beaf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geopoint.h"
+          },
+          "hashes": {
+            "md5": "53a16196348144a7858b1b44ab2ab42a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geoellipse.h"
+          },
+          "hashes": {
+            "md5": "ad3042b2ab12fc4a2b35d69aa25c7f52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geoline.h"
+          },
+          "hashes": {
+            "md5": "77aa36554c1398d287c5f7df69bf8e13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geoarc.h"
+          },
+          "hashes": {
+            "md5": "04069358f4906c0bf0bbc16d51f96fb7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geoarraw.h"
+          },
+          "hashes": {
+            "md5": "d7a90438d3c07c4c0f67b277dd9950ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/algorithmdebuggingplatform/libimageview/geometry/geocircle.h"
+          },
+          "hashes": {
+            "md5": "e1f5940f9a86c7f15e38ed6c4d96eb59"
+          }
+        }
+      ]
+    }
+  ]
+}

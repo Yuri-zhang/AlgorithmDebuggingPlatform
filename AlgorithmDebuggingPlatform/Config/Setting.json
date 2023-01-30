@@ -1,0 +1,67 @@
+{
+    "curTaskPath": "./Project/1243",
+    "recipe": "VB1734QPNPGUCPCPNA",
+    "modelName": "1734Q04",
+    "GrayTestData": [
+        {
+            "enable": false,
+            "lightNum": 1,
+            "chanelNum": 1,
+            "pictureNum": 1,
+            "name": "红点光",
+            "controller": 0,
+            "value": 300,
+            "tag": "192.168.29.252:8234"
+        },
+        {
+            "enable": true,
+            "lightNum": 2,
+            "chanelNum": 2,
+            "pictureNum": 2,
+            "name": "蓝点光",
+            "controller": 0,
+            "value": 210,
+            "tag": "192.168.29.252:8234"
+        },
+        {
+            "enable": false,
+            "lightNum": 3,
+            "chanelNum": 1,
+            "pictureNum": 3,
+            "name": "UV光",
+            "controller": 1,
+            "value": 300,
+            "tag": "192.168.29.253:8234"
+        },
+        {
+            "enable": false,
+            "lightNum": 4,
+            "chanelNum": 2,
+            "pictureNum": 4,
+            "name": "高蓝光",
+            "controller": 1,
+            "value": 300,
+            "tag": "192.168.29.253:8234"
+        },
+        {
+            "enable": true,
+            "lightNum": 5,
+            "chanelNum": 3,
+            "pictureNum": 5,
+            "name": "低蓝光",
+            "controller": 1,
+            "value": 750,
+            "tag": "192.168.29.253:8234"
+        },
+        {
+            "enable": true,
+            "lightNum": 6,
+            "chanelNum": 4,
+            "pictureNum": 6,
+            "name": "蓝背光",
+            "controller": 1,
+            "value": 200,
+            "tag": "192.168.29.253:8234"
+        }
+    ]   
+}

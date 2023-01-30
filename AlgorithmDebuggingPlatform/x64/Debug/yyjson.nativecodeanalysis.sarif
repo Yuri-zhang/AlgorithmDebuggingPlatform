@@ -1,0 +1,2119 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "取消对 NULL 指针的引用。“cur_key->next”包含与“removed_item”相同的 NULL 值。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                },
+                "region": {
+                  "startLine": 5539,
+                  "startColumn": 17,
+                  "endLine": 5539,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "unsafe_yyjson_mut_obj_remove",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5529,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5530,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5531,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5532,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5533,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5534,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5536,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5539,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5540,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5541,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5542,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5543,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5535,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5536,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5538,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "“removed_item”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+                          },
+                          "region": {
+                            "startLine": 5539,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“removed_item”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“patch_val”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 1915,
+                  "startColumn": 5,
+                  "endLine": 1915,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "yyjson_mut_merge_patch",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1897,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1897,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1901,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1905,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1906,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1908,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1915,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "“patch_val”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1917,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "“patch_val”是“unsafe_yyjson_is_null”的输入/输出参数(在 d:\\algorithmdebuggingplatform\\algorithmdebuggingplatform\\yyjson.h:3516 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1917,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1920,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1921,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1924,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "“patch_val”是“yyjson_mut_merge_patch”的输入/输出参数(在 d:\\algorithmdebuggingplatform\\algorithmdebuggingplatform\\yyjson.h:3450 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1925,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1915,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“patch_val”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "取消对 NULL 指针“orig_val”的引用。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 1934,
+                  "startColumn": 5,
+                  "endLine": 1934,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "yyjson_mut_merge_patch",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1897,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1897,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1898,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 41
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1899,
+                            "startColumn": 51
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1901,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1905,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1906,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1908,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1915,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1929,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1934,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "“orig_val”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1935,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1938,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!patch_val”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 1934,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“orig_val”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 3094,
+                  "startColumn": 16,
+                  "endLine": 3094,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?read_number_raw@@YA_NPEAPEAE0_NPEAUyyjson_val@@PEAPEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "从“cur”中读取的数据无效: 可读大小为“_Old_6`len”个字节，但可能读取了“2”个字节。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5666,
+                  "startColumn": 13,
+                  "endLine": 5666,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "yyjson_read_opts",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5602,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5603,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5604,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5605,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“hdr”为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5605,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5605,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5615,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!err”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5616,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!alc_ptr”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5619,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5621,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!dat”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5624,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!len”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5629,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“((flg&YYJSON_READ_INSITU))!=0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5634,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“len>=(((usize)(~(usize)0)))-4”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5637,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5638,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“!hdr”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5641,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5642,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "(别名)“cur”收到“hdr”的值"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5643,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5644,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5648,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“cur”是“char_is_space_or_comment”的输入/输出参数(在第 2747 行中声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5648,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“char_is_space_or_comment(*cur)”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5665,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“cur”是“char_is_container”的输入/输出参数(在第 2757 行中声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5665,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“char_is_container(*cur)”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                          },
+                          "region": {
+                            "startLine": 5666,
+                            "startColumn": 35
+                          }
+                        },
+                        "message": {
+                          "text": "从“cur”中读取无效(位于其可读范围之外)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5919,
+                  "startColumn": 57,
+                  "endLine": 5919,
+                  "endColumn": 67
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5919,
+                  "startColumn": 57,
+                  "endLine": 5919,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5927,
+                  "startColumn": 57,
+                  "endLine": 5927,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5927,
+                  "startColumn": 57,
+                  "endLine": 5927,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5938,
+                  "startColumn": 57,
+                  "endLine": 5938,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5938,
+                  "startColumn": 57,
+                  "endLine": 5938,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5952,
+                  "startColumn": 57,
+                  "endLine": 5952,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5952,
+                  "startColumn": 57,
+                  "endLine": 5952,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u32_len_1_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5970,
+                  "startColumn": 57,
+                  "endLine": 5970,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_5_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5970,
+                  "startColumn": 57,
+                  "endLine": 5970,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_5_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5984,
+                  "startColumn": 57,
+                  "endLine": 5984,
+                  "endColumn": 66
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_5_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 5984,
+                  "startColumn": 57,
+                  "endLine": 5984,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_5_8@@YAPEAEIPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6107,
+                  "startColumn": 53,
+                  "endLine": 6107,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_15_to_17_trim@@YAPEAEPEAE_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6107,
+                  "startColumn": 53,
+                  "endLine": 6107,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_u64_len_15_to_17_trim@@YAPEAEPEAE_K@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6167,
+                  "startColumn": 57,
+                  "endLine": 6167,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_f64_exp@@YAPEAEHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6167,
+                  "startColumn": 57,
+                  "endLine": 6167,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_f64_exp@@YAPEAEHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6173,
+                  "startColumn": 57,
+                  "endLine": 6173,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_f64_exp@@YAPEAEHPEAE@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6357,
+                  "startColumn": 34,
+                  "endLine": 6357,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_f64_raw@@YAPEAEPEAE_KI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 * ，然后将结果转换到 8 字节值。在调用运算符 * 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+                },
+                "region": {
+                  "startLine": 6419,
+                  "startColumn": 57,
+                  "endLine": 6419,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?write_f64_raw@@YAPEAEPEAE_KI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30147.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00A3C1B0 -il C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\_CL_fe11e154ast -typedil -f yyjson.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930147 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\uic -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\moc -I C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\stvyacui.23j -I D:\\Qt\\6.3.2\\msvc2019_64\\include -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtWidgets -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtGui -I D:\\Qt\\6.3.2\\msvc2019_64\\include\\QtCore -I C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\stvyacui.23j -I D:\\include -I D:\\Qt\\6.3.2\\msvc2019_64\\mkspecs\\win32-msvc -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\moc -I D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform\\x64\\Debug\\uic -nologo -W 1 -diagnostics:column -Ot -DCODE_ANALYSIS -D_WINDOWS -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DWIN64 -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -EHs -D_CPPUNWIND -EHc -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -std:c++17 -Fox64\\Debug\\yyjson.obj -Fdx64\\Debug\\vc142.pdb -external:W 1 -Gd -analyze:projectdirectory D:\\AlgorithmDebuggingPlatform\\AlgorithmDebuggingPlatform -analyze:rulesetdirectory ;D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -Zc:rvalueCast -Zc:strictStrings -permissive- -Zc:__cplusplus -Zc:externConstexpr -validate-charset -utf-8 -D_UTF8 -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\ucrt -external:I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I D:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\um -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\shared -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\winrt -external:I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -I D:\\Windows Kits\\10\\Include\\10.0.17763.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -MPdiagMutex 0000000000000144",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "04398258dd719a5b1332f77e93336d5c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/AlgorithmDebuggingPlatform/AlgorithmDebuggingPlatform/yyjson.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "05bb8f8ed48d82028528ec177632320d"
+          }
+        }
+      ]
+    }
+  ]
+}
